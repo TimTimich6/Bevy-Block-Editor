@@ -11,7 +11,7 @@ impl Plugin for SetupPlugin {
 }
 
 #[derive(Component)]
-struct Shape;
+pub struct Shape;
 
 #[derive(Component)]
 pub struct Platform;

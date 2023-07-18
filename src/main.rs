@@ -20,11 +20,11 @@ fn main() {
                 title: "I am a window!".into(),
                 resolution: (800f32, 500f32).into(),
                 // Tells wasm to resize the window according to the available canvas
-                position: WindowPosition::Automatic,
+                // position: WindowPosition::,
                 focused: true,
                 // resizable: false,
-                // mode: bevy::window::WindowMode::Fullscreen,
-                decorations: false,
+                mode: bevy::window::WindowMode::Fullscreen,
+                // decorations: false,
                 fit_canvas_to_parent: true,
                 prevent_default_event_handling: false,
 
